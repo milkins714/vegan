@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdant - Меню</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo-wrapper">
+                <a href="1str.html" class="logo">Verdant</a>
+            </div>
+
+            <div class="logo-img-container">
+                <img src="лого.png" alt="Логотип Verdant Cafe" class="header-img">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="1str.html">Главная</a></li>
+                    <li><a href="2str.html" class="active">Меню</a></li>
+                    <li><a href="3str.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="menu-header">
+            <h1>Наше меню</h1>
+            <p>Все блюда приготовлены из свежих органических продуктов</p>
+        </div>
+
+        <div class="menu-controls">
+            <div class="search-box">
+                <input type="text" placeholder="Поиск по меню..." aria-label="Поиск по меню">
+            </div>
+
+            <div class="sort-options">
+                <button type="button" class="sort-btn" data-sort="price">По цене</button>
+                <button type="button" class="sort-btn" data-sort="name">По названию</button>
+                <button type="button" class="sort-btn" data-sort="category">По категории</button>
+            </div>
+        </div>
+
+        <div class="menu-list">
+            <a href="kard.html" class="menu-item-link">
+                <div class="menu-item" data-category="breakfast" data-price="320" data-name="Тосты с авокадо">
+                    <div class="menu-item-img">
+                        <img alt="Тосты с авокадо" src="https://s1.eda.ru/StaticContent/Photos/e/b7/eb731a7eb3454f64a7f14f368aaf65f8.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Тосты с авокадо</h3>
+                        <p class="menu-item-desc">Хрустящие тосты из цельнозернового хлеба с пюре из авокадо, кедровыми орешками и микрозеленью</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">320 ₽</span>
+                            <span class="menu-item-category category-1">Завтраки</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="salad" data-price="450" data-name="Салат Нисуаз">
+                    <div class="menu-item-img">
+                        <img alt="Салат Нисуаз" src="https://www.vkusnyblog.com/wp-content/uploads/2013/04/nisuaz.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Салат Нисуаз</h3>
+                        <p class="menu-item-desc">Свежие овощи, оливки, фасоль и артишоки с заправкой из дижонской горчицы и оливкового масла</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">450 ₽</span>
+                            <span class="menu-item-category category-2">Салаты</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="main" data-price="580" data-name="Фалафель с хумусом">
+                    <div class="menu-item-img">
+                        <img alt="Фалафель с хумусом" src="https://img.povar.ru/mobile/c2/9d/ef/a0/falafel_v_pite_s_salatom_i_pomidorom-792098.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Фалафель с хумусом</h3>
+                        <p class="menu-item-desc">Хрустящие шарики из нута с домашним хумусом, лепешкой питой и овощным салатом</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">580 ₽</span>
+                            <span class="menu-item-category category-3">Основные блюда</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="soup" data-price="380" data-name="Тыквенный крем-суп">
+                    <div class="menu-item-img">
+                        <img alt="Тыквенный крем-суп" src="https://lh3.googleusercontent.com/proxy/RwIOdm0C6uj4P75qmDEvOJNUqk-OahV63lHG1-ttPKXseGW7kX_eyZ78NrG98UeZnWTdPEYJdsRAJpg3sMJWNmQeYROYGYC38rSVS23cvdo0GNY">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Тыквенный крем-суп</h3>
+                        <p class="menu-item-desc">Нежный суп из запеченной тыквы с кокосовыми сливками и тыквенными семечками</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">380 ₽</span>
+                            <span class="menu-item-category category-4">Супы</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="dessert" data-price="350" data-name="Чиа-пудинг">
+                    <div class="menu-item-img">
+                        <img alt="Чиа-пудинг" src="https://zira.uz/wp-content/uploads/2018/10/pp-pudding-chia-9.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Чиа-пудинг</h3>
+                        <p class="menu-item-desc">Пудинг из семян чиа с кокосовым молоком, свежими ягодами и кленовым сиропом</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">350 ₽</span>
+                            <span class="menu-item-category category-5">Десерты</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="drink" data-price="280" data-name="Матча-латте">
+                    <div class="menu-item-img">
+                        <img alt="Матча-латте" src="https://static.tildacdn.com/stor3734-3932-4261-a635-333664333734/81106117.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Матча-латте</h3>
+                        <p class="menu-item-desc">Традиционный японский чай матча с растительным молоком на выбор</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">280 ₽</span>
+                            <span class="menu-item-category category-6">Напитки</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="breakfast" data-price="420" data-name="Боул с асаи">
+                    <div class="menu-item-img">
+                        <img alt="Боул с асаи" src="https://www.chefmarket.ru/blog/wp-content/uploads/2024/03/nvdwgzk-kj4-e1711388327419.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Боул с асаи</h3>
+                        <p class="menu-item-desc">Ягодный смузи-боул с асаи, бананом, гранолой и сезонными фруктами</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">420 ₽</span>
+                            <span class="menu-item-category category-1">Завтраки</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="salad" data-price="490" data-name="Салат с киноа">
+                    <div class="menu-item-img">
+                        <img alt="Салат с киноа" src="https://sdelaemvkusno.ru/wp-content/uploads/2022/10/kinoa-vyalenyj-tomat-moczarella-1.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Салат с киноа</h3>
+                        <p class="menu-item-desc">Киноа с авокадо, вялеными томатами, рукколой и лимонной заправкой</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">490 ₽</span>
+                            <span class="menu-item-category category-2">Салаты</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="main" data-price="520" data-name="Овощное карри">
+                    <div class="menu-item-img">
+                        <img alt="Овощное карри" src="https://uzhindoma.ru/upload/iblock/336/oqbcn6uskrosyih6bcd66rov0mxqcwjs.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Овощное карри</h3>
+                        <p class="menu-item-desc">Ароматное карри с овощами, кокосовым молоком и рисом басмати</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">520 ₽</span>
+                            <span class="menu-item-category category-3">Основные блюда</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="soup" data-price="360" data-name="Чечевичный суп">
+                    <div class="menu-item-img">
+                        <img alt="Чечевичный суп" src="https://zira.uz/wp-content/uploads/2018/02/sup-chechevichn-5.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Чечевичный суп</h3>
+                        <p class="menu-item-desc">Сытный суп из красной чечевицы с морковью, сельдереем и специями</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">360 ₽</span>
+                            <span class="menu-item-category category-4">Супы</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="dessert" data-price="390" data-name="Чизкейк">
+                    <div class="menu-item-img">
+                        <img alt="Чизкейк" src="https://madamevorger.com/wp-content/uploads/2020/07/cheesecake1-e1662843143316.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Чизкейк</h3>
+                        <p class="menu-item-desc">Десерт из кешью и кокосовых сливок на ореховой основе с ягодным соусом</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">390 ₽</span>
+                            <span class="menu-item-category category-5">Десерты</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="menu-item-link">
+                <div class="menu-item" data-category="drink" data-price="320" data-name="Ягодный смузи">
+                    <div class="menu-item-img">
+                        <img alt="Ягодный смузи" src="https://images.gastronom.ru/WTBvdUkzEPonYoFCqlXOVhVnmi7uabW0xRPseVnVkhQ/pr:recipe-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzL2EwYjI4NTJkLTZhZDYtNDAyYS1iZmJlLTI2MzU1ZDNlMDM3Zi5qcGc.webp">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">Ягодный смузи</h3>
+                        <p class="menu-item-desc">Смесь сезонных ягод с бананом и миндальным молоком</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">320 ₽</span>
+                            <span class="menu-item-category category-6">Напитки</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="pagination">
+            <button class="pagination-prev" disabled>← Назад</button>
+            <div class="pagination-pages"></div>
+            <button class="pagination-next">Вперед →</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-logo">
+                    <h3>Verdant</h3>
+                    <p>Веган-кафе с душой</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="Telegram">📱</a>
+                    </div>
+                </div>
+
+                <div class="footer-section footer-contacts">
+                    <h4>Контакты</h4>
+                    <p>г. Москва, ул. Зеленая, 15</p>
+                    <p>+7 (495) 123-45-67</p>
+                    <p>hello@verdant.ru</p>
+                </div>
+
+                <div class="footer-section footer-hours">
+                    <h4>Часы работы</h4>
+                    <p>Пн-Пт: 9:00–22:00</p>
+                    <p>Сб-Вс: 10:00–23:00</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
