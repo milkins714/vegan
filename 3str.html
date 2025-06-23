@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdant - Контакты</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <header class="contact-header">
+        <div class="container header-container">
+
+            <div class="logo-wrapper">
+                <a href="1str.html" class="logo">Verdant</a>
+            </div>
+
+            <div class="logo-img-container">
+                <img src="лого.png" alt="Логотип Veggie Cafe" class="header-img">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="1str.html">Главная</a></li>
+                    <li><a href="2str.html">Меню</a></li>
+                    <li><a href="3str.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container contact-page">
+        <h1 class="page-title">Свяжитесь с нами</h1>
+
+        <div class="contact-grid">
+            <section class="contact-form-section">
+                <h2>Форма обратной связи</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Электронная почта</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Ваше сообщение</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Отправить сообщение</button>
+                </form>
+            </section>
+
+            <section class="contact-info-section">
+    <h2 class="section-title">Контактная информация</h2>
+    <div class="contact-info-card">
+        <div class="contact-info-item address">
+            <div class="icon-wrapper">
+                <span class="icon">📍</span>
+            </div>
+            <div class="info-content">
+                <h3>Адрес</h3>
+                <p>г. Москва, ул. Зеленая, 15</p>
+            </div>
+        </div>
+
+        <div class="contact-info-item contacts">
+            <div class="icon-wrapper">
+                <span class="icon">📞</span>
+            </div>
+            <div class="info-content">
+                <h3>Контакты</h3>
+                <p>+7 (495) 123-45-67</p>
+                <p>hello@verdant.ru</p>
+            </div>
+        </div>
+
+        <div class="contact-info-item hours">
+            <div class="icon-wrapper">
+                <span class="icon">🕒</span>
+            </div>
+            <div class="info-content">
+                <h3>Часы работы</h3>
+                <p>Пн-Пт: 9:00–22:00</p>
+                <p>Сб-Вс: 10:00–23:00</p>
+            </div>
+        </div>
+
+        <div class="contact-info-item social">
+            <div class="icon-wrapper">
+                <span class="icon">🌿</span>
+            </div>
+            <div class="info-content">
+                <h3>Социальные сети</h3>
+                <div class="social-buttons">
+                    <a href="#" class="social-btn instagram">Instagram</a>
+                    <a href="#" class="social-btn telegram">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <section class="map-section">
+                <div class="interactive-map">
+                    <h2>Мы находимся</h2>
+                    <iframe 
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=37.2198,55.5065,37.2398,55.5265&layer=mapnik&marker=55.516497,37.229858" 
+                        class="map-iframe"
+                        title="Карта расположения"
+                    ></iframe>
+                    <p class="map-address">г. Москва, ул. Зеленая, 15</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>
