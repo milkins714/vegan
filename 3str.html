@@ -9,7 +9,6 @@
 <body>
     <header class="contact-header">
         <div class="container header-container">
-
             <div class="logo-wrapper">
                 <a href="1str.html" class="logo">Verdant</a>
             </div>
@@ -34,72 +33,75 @@
         <div class="contact-grid">
             <section class="contact-form-section">
                 <h2>Форма обратной связи</h2>
-                <form class="contact-form">
+                <form id="feedbackForm" class="contact-form">
                     <div class="form-group">
                         <label for="name">Ваше имя</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" required minlength="2">
+                        <div class="error-message" id="nameError"></div>
                     </div>
                     <div class="form-group">
                         <label for="email">Электронная почта</label>
                         <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="emailError"></div>
                     </div>
                     <div class="form-group">
                         <label for="message">Ваше сообщение</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+                        <div class="error-message" id="messageError"></div>
                     </div>
                     <button type="submit" class="submit-btn">Отправить сообщение</button>
                 </form>
             </section>
 
             <section class="contact-info-section">
-    <h2 class="section-title">Контактная информация</h2>
-    <div class="contact-info-card">
-        <div class="contact-info-item address">
-            <div class="icon-wrapper">
-                <span class="icon">📍</span>
-            </div>
-            <div class="info-content">
-                <h3>Адрес</h3>
-                <p>г. Москва, ул. Зеленая, 15</p>
-            </div>
-        </div>
+                <h2 class="section-title">Контактная информация</h2>
+                <div class="contact-info-card">
+                    <div class="contact-info-item address">
+                        <div class="icon-wrapper">
+                            <span class="icon">📍</span>
+                        </div>
+                        <div class="info-content">
+                            <h3>Адрес</h3>
+                            <p>г. Москва, ул. Зеленая, 15</p>
+                        </div>
+                    </div>
 
-        <div class="contact-info-item contacts">
-            <div class="icon-wrapper">
-                <span class="icon">📞</span>
-            </div>
-            <div class="info-content">
-                <h3>Контакты</h3>
-                <p>+7 (495) 123-45-67</p>
-                <p>hello@verdant.ru</p>
-            </div>
-        </div>
+                    <div class="contact-info-item contacts">
+                        <div class="icon-wrapper">
+                            <span class="icon">📞</span>
+                        </div>
+                        <div class="info-content">
+                            <h3>Контакты</h3>
+                            <p>+7 (495) 123-45-67</p>
+                            <p>hello@verdant.ru</p>
+                        </div>
+                    </div>
 
-        <div class="contact-info-item hours">
-            <div class="icon-wrapper">
-                <span class="icon">🕒</span>
-            </div>
-            <div class="info-content">
-                <h3>Часы работы</h3>
-                <p>Пн-Пт: 9:00–22:00</p>
-                <p>Сб-Вс: 10:00–23:00</p>
-            </div>
-        </div>
+                    <div class="contact-info-item hours">
+                        <div class="icon-wrapper">
+                            <span class="icon">🕒</span>
+                        </div>
+                        <div class="info-content">
+                            <h3>Часы работы</h3>
+                            <p>Пн-Пт: 9:00–22:00</p>
+                            <p>Сб-Вс: 10:00–23:00</p>
+                        </div>
+                    </div>
 
-        <div class="contact-info-item social">
-            <div class="icon-wrapper">
-                <span class="icon">🌿</span>
-            </div>
-            <div class="info-content">
-                <h3>Социальные сети</h3>
-                <div class="social-buttons">
-                    <a href="#" class="social-btn instagram">Instagram</a>
-                    <a href="#" class="social-btn telegram">Telegram</a>
+                    <div class="contact-info-item social">
+                        <div class="icon-wrapper">
+                            <span class="icon">🌿</span>
+                        </div>
+                        <div class="info-content">
+                            <h3>Социальные сети</h3>
+                            <div class="social-buttons">
+                                <a href="https://vk.com/mil_andreevna" class="social-btn Vkontakte" target="_blank" rel="noopener noreferrer">VK</a>
+                                <a href="https://t.me/and_re_evna" class="social-btn telegram" target="_blank" rel="noopener noreferrer">Telegram</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
+            </section>
 
             <section class="map-section">
                 <div class="interactive-map">
@@ -115,5 +117,6 @@
         </div>
     </main>
 
+    <script src="script4.js"></script>
 </body>
 </html>
